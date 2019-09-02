@@ -3,8 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui';
+import VuejsDialog from 'vuejs-dialog';
+import 'vuejs-dialog/dist/vuejs-dialog.min.css';
+import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.use(VuejsDialog);
+Vue.use(ElementUI);
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
