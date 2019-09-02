@@ -1,2 +1,1 @@
-# betfun-news-web-master
-资讯web
+## betfun-news-web betfun资讯web
